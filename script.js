@@ -13,44 +13,6 @@ window.onscroll = () => {
 }
 
 
-function validate() {
-    let name = document.querySelector('.name');
-    let email = document.querySelector('.email');
-    let msg = document.querySelector('.message');
-    let btn = document.querySelector('.send-btn');
-
-    btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        if(name.value == "" || email.value == "" || msg.value == ""){
-            emptyerror();
-        }else {
-            
-            sucess();
-        }
-    })
-}
-
-validate()
-
-
-
-
-function emptyerror() {
-    swal({
-        title: "Oh no ....",
-        text: "Fields cannot be empty! ",
-        icon: "error",
-        
-      });
-}
-function sucess() {
-    swal({
-        title: "Email enviado",
-        text: "Responderemos em breve. ",
-        icon: "success",
-      });
-}
-
 
 let header = document.querySelector('header')
 
