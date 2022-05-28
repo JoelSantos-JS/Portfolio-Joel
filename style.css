@@ -224,7 +224,7 @@ align-items: center;
 }
 
 .social .bx {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 10px;
     border-radius: 50%;
     color: var(--bg-color);
@@ -237,8 +237,10 @@ align-items: center;
 }
 
 .social a i:hover {
-    transform: scale(1.4);
+    transform: scale(1.4895);
 }
+
+
 
 
 .heanding {
@@ -290,7 +292,7 @@ align-items: center;
 }
 
 .about-text p {
-    font-size: 0.938rem;
+    font-size: 1rem;
     letter-spacing: 0.5px;
     text-align: justify;
     margin-bottom: 1.5rem;

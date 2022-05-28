@@ -34,4 +34,4 @@ const ser = ScrollReveal({
 ser.reveal('.home' ,{origin: 'rigth'})
 ser.reveal('.about' , {origin: 'left' , interval:600 , delay:400})
 
-ser.reveal('.superform', {origin: 'bottom' , delay:200})
+ser.reveal('.superform', {origin: 'left' , delay:300})
