@@ -21,7 +21,7 @@
 
 body {
     color: var(--bg-color);
-    background: var(--body-color);
+    background: var(--body-color)
 }
 
 img {
@@ -408,8 +408,9 @@ font-size: 2.7rem;
 
 .tec-img img {
 
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+    gap: 10px;
 }
 
 
